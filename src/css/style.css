@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: lightblue;
+    width: 100vw;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+section{
+    width: 100vw;
+    max-width: 100vw;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    max-width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.Container{
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Values{
+    align-items: flex-start;
+    margin-top: -20px;
+}
+.Images{
+    align-items: flex-end;
+}
+h1{
+    font-size: 20px;
+}
+img{
+    height: 60%;
+}
